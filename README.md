@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Components
+FoodCard 
+Muestra las tarjetas con información de las comidas disponibles
