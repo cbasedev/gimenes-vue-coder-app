@@ -6,11 +6,13 @@
 
 <script>
 import FoodCard from './components/FoodCard.vue'
+import FoodCard from './components/Login.vue'
 
 export default {
   name: 'App',
   components: {
-    FoodCard
+    FoodCard,
+    Login 
 }
 }
 </script>
