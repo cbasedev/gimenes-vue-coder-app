@@ -1,30 +1,22 @@
 <template>
   <div id="app">
-    <FoodCard/>
+    <LoginForm/>
   </div>
 </template>
 
 <script>
-import FoodCard from './components/FoodCard.vue'
-import FoodCard from './components/Login.vue'
+//import HomePage from './views/HomePage.vue'
+import LoginForm from './views/LoginForm.vue';
 
 export default {
-  name: 'App',
-  components: {
-    FoodCard,
-    Login 
+    name: 'App',
+    components: {
+    //HomePage,
+    LoginForm
 }
 }
 </script>
 
 <style>
-  *{
-    margin: 0;
-    padding: 0;
-  }
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  @import './assets/styles/styles.css';
 </style>
